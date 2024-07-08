@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/logouttest/LogoutTest.java">
+        <classes>
+            <class name="org.logouttest.LogoutTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="logoutApp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/logouttest/MenuLogoutTest.java">
+        <classes>
+            <class name="org.logouttest.MenuLogoutTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="logoutApp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/uivalidation/DashboardUITest.java">
+        <classes>
+            <class name="uivalidation.DashboardUITest">
+                <methods>
+                    <include name="redirectToDashboard"/>
+                    <include name="dashboardScreenTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/uivalidation/ExpenseUITest.java">
+        <classes>
+            <class name="uivalidation.ExpenseUITest">
+                <methods>
+                    <include name="redirectToDashboard"/>
+                    <include name="redirectToExpense"/>
+                    <include name="expenseUIValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/uivalidation/LoginUITest.java">
+        <classes>
+            <class name="uivalidation.LoginUITest">
+                <methods>
+                    <include name="loginScreenTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/uivalidation/MenuUITest.java">
+        <classes>
+            <class name="uivalidation.MenuUITest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="MenuPage"/>
+                    <include name="MenuUIValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/uivalidation/ScheduleUITest.java">
+        <classes>
+            <class name="uivalidation.ScheduleUITest">
+                <methods>
+                    <include name="redirectToDashboard"/>
+                    <include name="redirectToSchedulePage"/>
+                    <include name="scheduleScreenTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

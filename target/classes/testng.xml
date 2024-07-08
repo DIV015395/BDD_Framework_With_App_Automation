@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/chattest/ChatTest.java">
+        <classes>
+            <class name="org.chattest.ChatTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="dashboardChatButton"/>
+                    <include name="ContactScreenChat"/>
+                    <include name="chatSearchUser"/>
+                    <include name="chatWithUser"/>
+                    <include name="chatScreenMessage"/>
+                    <include name="deleteChatMessage"/>
+                    <include name="chatWithUserSecondTime"/>
+                    <include name="deleteChatMessageForMe"/>
+                    <include name="messageReply"/>
+                    <include name="messageInfoCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/chattest/GroupChatTest.java">
+        <classes>
+            <class name="org.chattest.GroupChatTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="dashboardChatButton"/>
+                    <include name="ContactScreenChat"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/chattest/GroupChatUsingNameSearch.java">
+        <classes>
+            <class name="org.chattest.GroupChatUsingNameSearch">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="dashboardChatButton"/>
+                    <include name="ContactScreenChat"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

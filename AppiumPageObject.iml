@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/bddstepdefinition" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mainbdd/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/bddtestrunner" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testbdd/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testbdd/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/expenseresources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/loginresources" type="java-resource" />
+    </content>
+  </component>
+</module>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/patientsearchtest/testcases/TestCase1Test.java">
+        <classes>
+            <class name="org.patientsearchtest.testcases.TestCase1Test">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="patientSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/patientsearchtest/testcases/TestCase2Test.java">
+        <classes>
+            <class name="org.patientsearchtest.testcases.PatientSearchByEmail">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="patientSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/patientsearchtest/testcases/TestCase3Test.java">
+        <classes>
+            <class name="org.patientsearchtest.testcases.PatientSearchByMobileNo">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="patientSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/patientsearchtest/testcases/TestCase4Test.java">
+        <classes>
+            <class name="org.patientsearchtest.testcases.PatientSearchByName">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="patientSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/patientsearchtest/testcases/TestCase5Test.java">
+        <classes>
+            <class name="org.patientsearchtest.testcases.PatientSearchByPatientId">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="patientSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

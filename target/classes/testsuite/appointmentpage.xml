@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase1Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentEnterMobileNumber">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase2Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentEnterPatientName">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase3Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentEnterMobileNumberAfterRemoveName">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase4Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentAddWithNameMobileNo">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase5Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentEnterTenDigitNo">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase6Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentSelectDoctorToBook">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase7Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.TestCase7Test">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                    <include name="validationDataMessage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase8Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.TestCase8Test">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase9Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.TestCase9Test">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/TestCase10Test.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.TestCase10Test">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+        <!--        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+        <!--<suite name="Master Test Suite">-->
+        <!--<suite-files>-->
+        <!--    <suite-file path="testsuite/logintestsuite.xml"/>-->
+        <!--    <suite-file path="testsuite/schedulefirstpage.xml"/>-->
+        <!--</suite-files>-->
+        <!--</suite>-->

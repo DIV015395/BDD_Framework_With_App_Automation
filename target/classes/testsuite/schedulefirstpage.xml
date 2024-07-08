@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/firstpage/ScheuleScreenTest.java">
+        <classes>
+            <class name="org.scheduletest.testcases.firstpage.ScheuleScreenTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/AppointmentInClinicTest.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentInClinicTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/scheduletest/testcases/secondpage/AppointmentScanTest.java">
+        <classes>
+            <class name="org.scheduletest.testcases.secondpage.AppointmentScanTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="schedulePage"/>
+                    <include name="appointmentTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

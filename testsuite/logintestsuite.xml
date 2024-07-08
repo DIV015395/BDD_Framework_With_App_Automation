@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/applogintest/testcases/TestCase1Test.java">
+        <classes>
+            <class name="org.applogintest.testcases.TestCase1Test">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/applogintest/testcases/TestCase2Test.java">
+        <classes>
+            <class name="org.applogintest.testcases.TestCase2Test">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/applogintest/testcases/TestCase3Test.java">
+        <classes>
+            <class name="org.applogintest.testcases.TestCase3Test">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/applogintest/testcases/TestCase4Test.java">
+        <classes>
+            <class name="org.applogintest.testcases.TestCase4Test">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/applogintest/testcases/TestCase5Test.java">
+        <classes>
+            <class name="org.applogintest.testcases.TestCase5Test">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

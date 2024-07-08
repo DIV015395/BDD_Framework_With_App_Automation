@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddCalenderTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddCalenderTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="expenseAddCalender"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddExceedBalanceTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddExceedBalanceTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="expenseAddExceedAmountBalance"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddRemarksTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddRemarksTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="expenseAddRemarks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddTest1.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddTest1">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="clickOnSaveButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddTest2.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddTest2">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="nameFillThenClickOnSaveButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddTest3.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddTest3">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="fillNameQuantityThenClickOnSaveButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddTest4.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddTest4">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="fillNameAmountQuantityThenClickOnSaveButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseAddTest5.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseAddTest5">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="verifyCameraCapture"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseFilterAllStatusTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseFilterAllStatusTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseFilterApprovedStatusTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseFilterApprovedStatusTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseFilterNewStatusTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseFilterNewStatusTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseFilterPendingStatusTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseFilterPendingStatusTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseFilterRejectAcceptStatusTest.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseFilterRejectAcceptStatusTest">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseFilterTest1.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseFilterTest1">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ManjeetSharma/IdeaProjects/Live_Appium_Project_Uat_Clove_1.0/src/test/java/org/expensestest/testcases/ExpenseTest1.java">
+        <classes>
+            <class name="org.expensestest.testcases.ExpenseTest1">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="searchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
